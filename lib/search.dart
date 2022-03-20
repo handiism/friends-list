@@ -54,6 +54,9 @@ class _SearchScreenState extends State<SearchScreen> {
                   });
                 },
               ),
+              const SizedBox(
+                height: 1,
+              ),
               Row(
                 children: <Widget>[
                   ElevatedButton(
@@ -93,6 +96,9 @@ class _SearchScreenState extends State<SearchScreen> {
                     child: const Text("Reset"),
                   ),
                 ],
+              ),
+              const SizedBox(
+                height: 1,
               ),
               Visibility(
                 visible: _visible,
